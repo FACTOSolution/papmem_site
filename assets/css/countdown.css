@@ -11,6 +11,7 @@
 #contagem li {
 	display: table;
 	text-align: center;
+	font-size: calc(100vh/45);
 	float: left;
 	background: white;
 	margin: 2px;
@@ -30,6 +31,6 @@
 
 #contagem li div span {
 	display: block;
-	font-size: 2rem;
+	font-size: calc(100vh/25);
 	color: #323031;
 }
