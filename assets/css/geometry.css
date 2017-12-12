@@ -1,0 +1,19 @@
+#geometric {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.accent {
+	background-color: #56AA1C;
+	z-index: 100;
+	position: relative;
+	opacity: 0.9;
+}
+
+.controls {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 200;
+}
