@@ -1,0 +1,36 @@
+#contagem {
+	width: 280px;
+	position: absolute;
+	left: 50%;
+	top: 135%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	padding: 0;
+	list-style: none;
+}
+
+#contagem li {
+	display: table;
+	text-align: center;
+	float: left;
+	background: white;
+	margin: 2px;
+	width: 14vh;
+	height: 14vh;
+}
+
+#contagem li:nth-child(3) {
+	clear: left;
+	margin-left: 15vh;
+}
+
+#contagem li div {
+	transform: rotate(45deg);
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#contagem li div span {
+	display: block;
+	font-size: 2rem;
+	color: #323031;
+}
