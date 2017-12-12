@@ -24,8 +24,8 @@
 	rest <= 0 ? days = hours = minutes = seconds = '00' : setTimeout(countdown, 1000);
 
 	document.getElementById('contagem').innerHTML =
-		'<li><div><span>' + days +'</span>dia' + (days > 1 ? 's' : '') +'</div></li>'
-		+'<li><div><span>' + hours +'</span>hora' + (hours > 1 ? 's' : '') +'</div></li>'
-		+'<li><div><span>' + minutes +'</span>minuto' + (minutes > 1 ? 's' : '') +'</div></li>'
-		+'<li><div><span>' + seconds +'</span>segundo' + (seconds > 1 ? 's' : '') +'</div></li>';
+		'<li><div><span>' + hours +'</span>hora' + (hours > 1 ? 's' : '') +'</div></li>'
+		+'<li><div><span>' + days +'</span>dia' + (days > 1 ? 's' : '') +'</div></li>'
+		+'<li><div><span>' + seconds +'</span>segundo' + (seconds > 1 ? 's' : '') +'</div></li>'
+		+'<li><div><span>' + minutes +'</span>minuto' + (minutes > 1 ? 's' : '') +'</div></li>';
 })();

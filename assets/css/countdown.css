@@ -1,5 +1,5 @@
 #contagem {
-	width: 280px;
+	width: calc(100vh/3.8);
 	position: absolute;
 	left: 50%;
 	top: 135%;
@@ -14,13 +14,12 @@
 	float: left;
 	background: white;
 	margin: 2px;
-	width: 14vh;
-	height: 14vh;
+	width: calc(100vh/8);
+	height: calc(100vh/8);
 }
 
 #contagem li:nth-child(3) {
 	clear: left;
-	margin-left: 15vh;
 }
 
 #contagem li div {
