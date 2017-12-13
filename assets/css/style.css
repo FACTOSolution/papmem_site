@@ -100,7 +100,45 @@
 	border: 2px dashed #212121;
 }
 
-@media (max-width: 660px) {
+.inscricoes {
+	width: 100%;
+	background: #fff;
+	color: #212121;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.inscricoes h1 {
+	text-align: center;
+	font-weight: bolder;
+	color: #212121;
+	margin-bottom: 8vh;
+	font-size: calc(100vh/15);
+}
+
+.inscricoes div {
+	padding: 10px;
+	border: 6px dotted #212121;
+}
+
+.inscricoes h2 {
+	padding: 16px;
+	border-top: 2px solid #212121;
+	border-bottom: 2px solid #212121;
+}
+
+.inscricoes .botao {
+	position: relative;
+	top: 20px;
+	bottom: 20px;
+	padding: 16px 50px;
+	text-decoration: none;
+	font-size: 1.4em;
+	background: #212121;
+	color: white;
+}
+
+@media (max-width: 728px) {
 	
 	.sobre div {
 		text-align: left;
@@ -112,5 +150,14 @@
 
 	.palestrantes .foto {
 		width: calc(100vw/1);
+	}
+
+	.palestrantes hr {
+		display: none;
+	}
+
+	.inscricoes div {
+		margin-left: 16px;
+		margin-right: 16px;
 	}
 }
