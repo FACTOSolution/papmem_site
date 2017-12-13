@@ -10,6 +10,7 @@
 	font-weight: bolder;
 	font-size: 8.5vw;
 	color: white;
+	z-index: 200;
 }
 
 .intro h3 {
@@ -57,6 +58,7 @@
 	margin-right: 10vw;
 	margin-bottom: 10vh;
 	font-size: calc(100vh/30);
+	text-align: justify;
 }
 
 .sobre div em {
@@ -66,7 +68,7 @@
 
 .palestrantes {
 	width: 100%;
-	background: #ef6c00;
+	background: #edc000;
 	color: #212121;
 	padding-bottom: 50px;
 }
@@ -75,16 +77,40 @@
 	text-align: center;
 	font-weight: bolder;
 	color: #212121;
-	margin-bottom: 5vh;
+	margin-bottom: 8vh;
 	font-size: calc(100vh/15);
 }
 
 .palestrantes .capt {
 	font-size: calc(100vh/30);
-	max-width: 450px;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.palestrantes .capt h3 {
+	font-weight: bold;
+	font-size: calc(100vh/30);
 }
 
 .palestrantes .foto {
-	min-width: font-size: calc(100vh/30);
+	width: calc(100vw/6);
+}
+
+.palestrantes hr {
+	border: 2px dashed #212121;
+}
+
+@media (max-width: 660px) {
+	
+	.sobre div {
+		text-align: left;
+	}
+
+	.palestrantes .capt {
+		text-align: left;
+	}
+
+	.palestrantes .foto {
+		width: calc(100vw/1);
+	}
 }
