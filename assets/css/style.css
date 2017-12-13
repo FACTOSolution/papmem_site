@@ -111,7 +111,6 @@
 .inscricoes h1 {
 	text-align: center;
 	font-weight: bolder;
-	color: #212121;
 	margin-bottom: 8vh;
 	font-size: calc(100vh/15);
 }
@@ -136,6 +135,28 @@
 	font-size: 1.4em;
 	background: #212121;
 	color: white;
+}
+
+.local {
+	width: 100%;
+	background: #212121;
+	color: #eee;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.local h1 {
+	position: relative;
+	font-weight: bolder;
+	top: 4vh;
+	margin-bottom: 8vh;
+	font-size: calc(100vh/15);
+}
+
+.local div {
+	margin-top: 4vh;
+	margin-left: 4vw;
+	margin-right: 4vw;
 }
 
 @media (max-width: 728px) {
