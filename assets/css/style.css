@@ -66,11 +66,61 @@
 	font-style: italic;
 }
 
+.cronograma {
+	width: 100%;
+	background: #8bc34a;
+	color: #212121;
+	padding-bottom: 8vh;
+	border-top: 1px solid #212121;
+	border-bottom: 1px solid #212121;
+	font-size: calc(100vh/38);
+}
+
+.cronograma h1 {
+	text-align: center;
+	font-weight: lighter;
+	color: #212121;
+	margin-bottom: 8vh;
+	font-size: calc(100vh/18);
+}
+
+.cronograma a {
+	color: #000000;
+}
+
+.cronograma .conteudo-tabela {
+	background: white;
+	border: 1px solid #1b5e20;
+}
+
+.cronograma .aula {
+	padding: 12px;
+	border-bottom: 1px solid #1b5e20;
+	border-left: 1px solid #1b5e20;
+	border-right: 1px solid #1b5e20;
+}
+
+.cronograma .aula .aula-titulo {
+	color: #1b5e20;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.cronograma .aula .aula-prof {
+	margin-top: -8px;
+	font-weight: bold;
+}
+
+.cronograma .aula .aula-apoio {
+	margin-top: -8px;
+}
+
 .palestrantes {
 	width: 100%;
 	background: #eeeeee;
 	color: #212121;
 	padding-bottom: 8vh;
+	border-bottom: 1px solid #aaa;
 }
 
 .palestrantes h1 {
